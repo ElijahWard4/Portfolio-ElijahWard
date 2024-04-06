@@ -1,0 +1,153 @@
+.navbar ul{
+    list-style-type: none;
+    background-color: #1576d0;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+  }
+  .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  /*alows background color to show when hovering with cursor over contents within navbar*/
+  .navbar a:hover{
+    background-color: #2a2c2f;
+  }
+  .navbar li{
+    float: right;
+  }
+
+  .subtitle {
+    padding: 20px;
+    text-align: right;
+    color:darkmagenta;
+    display: block;
+    background-image: url("./assets/download.jpeg");
+}
+
+.workContent {
+    margin: 5px;
+    display: flex;
+    
+}
+
+.workContent a:hover {
+  background-color: hotpink;
+}
+
+.workContent h1 {
+    font-size: large;
+    border-right:  #1576d0;
+}
+
+.sidebar {
+  
+  display: block;
+  margin: 5%;
+  border: #2a2c2f;
+}
+
+.footer {
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(84, 90, 90);
+    display: block;
+    
+  }
+
+.aboutContent {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  border: #2a2c2f;
+}
+
+.aboutEli {
+  display: flex;
+  border: #2a2c2f;
+  background-color: #1576d0;
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 5%
+}
+
+.myWork {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
+    
+}
+
+.item {
+    border: 5px rgb(2, 2, 21);
+    min-height: 100px;
+    max-height: 100px;
+    font-size: large;
+    margin: 10px;
+    object-fit: fill;
+}
+
+.info {
+  display: inline-flex;
+  margin: 10px;
+}
+
+.man {
+    border: 5px rgb(2, 2, 21);
+    min-height: 100px;
+    max-height: 100px;
+    font-size: large;
+    margin: 10px;
+    object-fit: fill;
+}
+
+.snow {
+    border: 5px rgb(2, 2, 21);
+    min-height: 100px;
+    max-height: 100px;
+    font-size: medium;
+    margin: 10px;
+    
+}
+
+.skydiver {
+    background-image: url(./assets/firstImage.jpeg);
+    object-fit: cover;
+}
+
+.snowboard {
+  background-image: url(./assets/snow.jpeg);
+  
+}
+
+.skii {
+  background-image: url(./assets/firstImage.jpeg);
+  
+}
+
+.raft {
+  background-image: url(./assets/firstImage.jpeg);
+  
+}
+
+.coder {
+  background-image: url(./assets/codeImage.jpeg);
+  
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
